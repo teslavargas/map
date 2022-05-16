@@ -1,0 +1,89 @@
+.loading-map {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100vw;
+}
+
+.search-container {
+  background-color: #333333;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  left: 20px;
+  padding: 5px;
+  position: absolute;
+  top: 20px;
+  width: 250px;
+  z-index: 999;
+}
+
+@media (max-width: 320px) {
+  .search-container {
+    width: 130px;
+    padding: 0px;
+  }
+}
+
+.btn-search {
+  color: #61dbfb;
+  border: 1px solid #61dbfb;
+}
+
+.btn-search:hover {
+  color: white;
+  background-color: #61dbfb;
+  border: 1px solid #61dbfb;
+}
+
+.list-background {
+  background-color: #333333;
+}
+
+.list-background:hover {
+  background-color: #313131cc;
+}
+
+.ul-background{
+    background-color: none;
+}
+
+::-webkit-scrollbar{
+    width: 8px;     /* Tamaño del scroll en vertical */
+    height: 8px;    /* Tamaño del scroll en horizontal */
+}
+
+::-webkit-scrollbar-thumb{
+    background: #61dbfb;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #179abb;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb:active{
+    background-color: #999999;
+}
+
+::-webkit-scrollbar-track {
+    background: #4e4e4e;
+}
+
+::-webkit-scrollbar-track:hover,
+::-webkit-scrollbar-track:active {
+  background: #4e4e4e;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.activePlace{
+    z-index: 2;
+    color: #fff;
+    background-color: #00000025;
+}
